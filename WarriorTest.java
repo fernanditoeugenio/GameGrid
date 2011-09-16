@@ -14,8 +14,8 @@ import java.io.*;
 
 			int a1, b1;
 			String s;
-			Warrior w1 = new Warrior("San Diego",100,"Sunny");
-			Warrior w2 = new Warrior("New York",100,"Hey!");
+			Warrior w1 = new Warrior("San Diego",100,"Sunny","duumy path");
+			Warrior w2 = new Warrior("New York",100,"Hey!","dummy path");
 			
 			do{
 			s = BattleProtocol.showAttackOps();

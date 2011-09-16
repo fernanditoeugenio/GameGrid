@@ -6,10 +6,21 @@
 
 import java.util.*;
 
-// Class declaration for CombatModerator 
+/**
+ *  Class declaration for CombatModerator 
+ * @author feugenio
+ *
+ */
 public class CombatModerator {
 	
-	
+	/**
+	 * Method that resolves combat between 2 warriors
+	 * @param w1
+	 * @param a1
+	 * @param w2
+	 * @param b1
+	 * @return
+	 */
 	public static String resolveCombat(Warrior w1, int a1, Warrior w2, int b1)
 	{
             Random randomGenerator = new Random();
