@@ -53,4 +53,6 @@ import java.io.*;
 			while(w1.isAlive() && w2.isAlive());
 		}
 		
+		System.out.println("\n\n\Game Has Ended.  Good Bye.");
+		
 }
